@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="flex item-center gap-2">
                     <p className='font-medium text-sm md:text-base'>Get the best Deals on our</p>
                 </div>
-                <h1 className='text-2xl sm:py-3 lg:text-4xl leading relaxed'>New Arrivals</h1>
+                <h1 className='text-2xl sm:py-3 lg:text-4xl leading relaxed'>Newest Arrivals</h1>
                 <div className="flex item-center gap-2">
                     <p className='font-semibold text-sm md:text-base'>SHOP NOW</p>
                 </div>
