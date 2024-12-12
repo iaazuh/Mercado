@@ -4,6 +4,7 @@ import { ShopContext } from '../Context/ShopContext'
 import { assets } from '../assets/assets'
 import { Link } from 'react-router-dom'
 import RelatedProducts from '../Components/RelatedProducts'
+import { useLocation } from 'react-router-dom'
 
 
 const Product = () => {
@@ -30,11 +31,16 @@ const Product = () => {
     fetchProductData()
   },[productId, products])
 
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth' });
+  }, [location]);
+
   return productData ? (
     <div className='border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100 px-4 sm:px-[5vw] md:px[7vw] lg:px[9vw] bg-gray-100'>
       <div>
         <Link className='flex flex-col-2 pb-4' to='/collection'>
-          <img className="w-8" src={assets.arrow}/>
+          <img className="w-8" src={assets.back}/>
           <p>Back to Collections</p>
         </Link>
         
