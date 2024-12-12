@@ -15,7 +15,7 @@ const Contact = () => {
         <div  className="flex flex-col justify-center items-start gap-6">
         <img className='w-full md:max-w-[480px]'  src={assets.contact_img} alt="" />
         
-        <Link className='text-blue-500' to={'#'}><p>Get full directions here</p></Link>
+        <Link className='text-blue-500' to='https://www.google.com/maps' target='blank'><p>Get full directions here</p></Link>
         </div>
         
         <div className="flex flex-col justify-center items-start gap-6">
@@ -26,7 +26,7 @@ const Contact = () => {
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>View Vacancies</button>
         </div>
       </div>
-      <h1>Replace the newsletter with email js form</h1>
+      
       <NewsLetterBox />
     </div>
   )

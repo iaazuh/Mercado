@@ -31,7 +31,8 @@ const Footer = () => {
                 <h4 className='text-l bold font-medium text-gray-800'>MERCADO INTERNATIONAL</h4>
                 <p className='text-gray-600'>Our International locations are </p>
                   <li>Accra</li>
-                  <li>Benin us</li>
+                  <li>Benin </li>
+                  <li>United States </li>
                   <li>Cairo</li>
                   <li>Canada</li>
                   <li>Uk</li>
