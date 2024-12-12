@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { assets } from "../assets/assets"
 
 export default function Carousel({ children: slides, autoSlide=false, autoSlideInterval=2000  }) {
   const [curr, setCurr] = useState(0)
@@ -16,14 +17,14 @@ useEffect(() => {
 } , []) 
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative w-full">
       <div className="flex z-1 transition-transfrom ease-out duration-500" style={{transform:`translateX(-${curr * 100}%)`}}>{slides}</div>
       <div className="absolute inset-0 flex items-center justify-between p-4">
         <button onClick={prev} className="p-1 rounded-full shadow bg-white/40 hover:bg-white">
-          <img className="w-10" src="src\assets\Images\arrow.png"  />
+          <img className="w-10" src={assets.back}  />
         </button>
         <button onClick={next} className="p-1 rounded-full shadow bg-white/40 hover:bg-white">
-          <img className="w-10" src="src\assets\Images\arrow right.png" />
+          <img className="w-10" src={assets.arrow} />
         </button>
         <div className="absolute bottom-4 right-0 left-0">
           <div className="flex items-center justify-center gap-2">

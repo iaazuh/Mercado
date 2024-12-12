@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { assets } from '../assets/assets'
 
 const NewsLetterBox = () => {
 
@@ -17,25 +18,25 @@ const NewsLetterBox = () => {
               <Link to='' target='blank'>
                 <img
                   className="w-7 h-7 flex-shrink-0 rounded-full items-center mr-4 transform hover:scale-110 transition-all duration:1000 shadow-md relative"
-                  src='src\assets\Images\facebook-fotor-bg-remover-2023060911293.png'
+                  src={assets.facebook}
                   alt=""/>
               </Link>
               <Link to='' target='blank'>
                 <img
                   className="w-7 h-7 flex-shrink-0 rounded-full items-center mr-4 transform hover:scale-110 transition-all duration:1000 shadow-md relative"
-                  src='src\assets\Images\insta-fotor-bg-remover-20230609113246.png'
+                  src={assets.instagram}
                   alt=""/>
               </Link>
               <Link to='' target='blank'>
                 <img
                   className="w-7 h-7 flex-shrink-0 rounded-full items-center mr-4 transform hover:scale-110 transition-all duration:1000 shadow-md relative"
-                  src='src\assets\Images\X-removebg-preview (1).png'
+                  src={assets.X}
                   alt="" />
               </Link>
               <Link to='' target='blank'>
                 <img
                   className="w-8 h-7 flex-shrink-0 rounded-full items-center mr-4 transform hover:scale-110 transition-all duration:1000 shadow-md relative"
-                  src='src\assets\Images\youtube-fotor-bg-remover-20230609113023.png'
+                  src={assets.youtube}
                   alt=""/>
               </Link>
                       

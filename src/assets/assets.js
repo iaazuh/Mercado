@@ -55,9 +55,10 @@ import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
 
-import logo from './logo.png'
+
+import logo from './logo2-removebg-preview.png'
 import hero_img from './hero_img.png'
-import cart_icon from './cart_icon.png'
+import cart_icon from './cart-removebg-preview.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
 import exchange_icon from './exchange_icon.png'
@@ -67,13 +68,26 @@ import search_icon from './search_icon.png'
 import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
 import support_img from './support_img.png'
-import menu_icon from './menu_icon.png'
+import menu_icon from './menu-removebg-preview.png'
 import about_img from './about_img.png'
 import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
-import arrow from './arrow.png'
+import arrow from './back-removebg-preview.png'
+import back from './arrow.png'
+import clipper from './clipper.png'
+import sb from './sb.png'
+import watch from './watch.png'
+import bt from './bt.png'
+import charger from './charger.png'
+import facebook from './facebook-fotor-bg-remover-2023060911293.png'
+import instagram from './insta-fotor-bg-remover-20230609113246.png'
+import X from './X-removebg-preview (1).png'
+import youtube from './youtube-fotor-bg-remover-20230609113023.png'
+
+
+
 
 export const assets = {
     logo,
@@ -94,7 +108,17 @@ export const assets = {
     razorpay_logo,
     stripe_logo,
     cross_icon,
-    arrow
+    arrow,
+    back,
+    charger,
+    bt,
+    sb,
+    watch,
+    clipper,
+    X,
+    youtube,
+    facebook,
+    instagram
 }
 
 export const products = [
