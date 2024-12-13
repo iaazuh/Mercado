@@ -76,11 +76,6 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import arrow from './back-removebg-preview.png'
 import back from './arrow.png'
-import clipper from './clipper.png'
-import sb from './sb.png'
-import watch from './watch.png'
-import bt from './bt.png'
-import charger from './charger.png'
 import facebook from './facebook-fotor-bg-remover-2023060911293.png'
 import instagram from './insta-fotor-bg-remover-20230609113246.png'
 import X from './X-removebg-preview (1).png'
@@ -110,11 +105,6 @@ export const assets = {
     cross_icon,
     arrow,
     back,
-    charger,
-    bt,
-    sb,
-    watch,
-    clipper,
     X,
     youtube,
     facebook,

@@ -1,16 +1,15 @@
 import React from 'react'
 import Carousel from './Carousel'
-import { assets } from '../assets/assets'
 
 
 const Hero = () => {
 
     const slides = [
         "src/assets/watch.PNG",
-        "src/assets/sb.PNG",
+        "src/assets/bt.PNG",
         "src/assets/clipper.PNG",
         "src/assets/charger.PNG",
-        "src/assets/bt.PNG"
+        "src/assets/sb.PNG"
     ]
   return (
     <div className='flex flex-col sm:flex-row  bg-gradient-to-b from-yellow-200 ...'>
