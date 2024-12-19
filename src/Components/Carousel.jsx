@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { assets } from "../assets/assets"
+
 
 export default function Carousel({ children: slides, autoSlide=false, autoSlideInterval=3500  }) {
   const [curr, setCurr] = useState(0)
