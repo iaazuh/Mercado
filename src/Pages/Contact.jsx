@@ -23,7 +23,10 @@ const Contact = () => {
           <p className='text-gray-500'>1124 humphery Bulevard <br /> Upper East Side <br />New York</p>
           <p className='text-gray-500'>Tel: 555-5555 <br />Email: info@mercado.com</p>
           <p className='font-semibold text-xl text-gray-600'>Join the Mercado Team</p>
+          <Link to='/vacancies'>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>View Vacancies</button>
+          </Link>
+          
         </div>
       </div>
       

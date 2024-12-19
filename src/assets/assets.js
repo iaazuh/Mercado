@@ -80,6 +80,11 @@ import facebook from './facebook-fotor-bg-remover-2023060911293.png'
 import instagram from './insta-fotor-bg-remover-20230609113246.png'
 import X from './X-removebg-preview (1).png'
 import youtube from './youtube-fotor-bg-remover-20230609113023.png'
+import bt from './bt.png'
+import charger from './charger.png'
+import clipper from './clipper.png'
+import sb from './sb.png'
+import watch from './watch.png'
 
 
 
@@ -108,7 +113,12 @@ export const assets = {
     X,
     youtube,
     facebook,
-    instagram
+    instagram,
+    bt,
+    charger,
+    clipper,
+    sb,
+    watch
 }
 
 export const products = [

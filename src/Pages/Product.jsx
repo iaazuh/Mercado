@@ -39,7 +39,7 @@ const Product = () => {
   return productData ? (
     <div className='border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100 px-4 sm:px-[5vw] md:px[7vw] lg:px[9vw] bg-gray-100'>
       <div>
-        <Link className='flex flex-col-2 pb-4' to='/collection'>
+        <Link className='flex flex-col-2 pb-8' to='/collection'>
           <img className="w-8" src={assets.back}/>
           <p>Back to Collections</p>
         </Link>
